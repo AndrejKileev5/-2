@@ -1,0 +1,9 @@
+day = int(input("Введите номер дня недели  (1-7):"))
+if day == 7:
+    print("выходные")
+elif day == 6:
+    print("выходные")
+elif 1<= day <=5:
+    print("будни")
+else:
+    print("ОШИБКА")    
