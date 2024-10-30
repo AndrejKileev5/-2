@@ -1,0 +1,14 @@
+number = int(input("Введите целое число: "))
+if number == 0:
+    number = "ноль"
+elif number > 0:
+    if number % 2 == 0:
+        number = "положительное четное число"
+    else: number = "положительное нечетное число"
+else:
+    if number % 2 == 0:
+        number = "отрицательное четное число"
+    else:
+        number = "отрицательное нечетное число"
+
+print(number)
